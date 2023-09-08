@@ -3,210 +3,210 @@
     "id": "1",
     "name": "apple",
     "category": "classic",
-    "icon":"https://1000logos.net/wp-content/uploads/2016/10/Apple-Logo-768x432.png"
+    "icon":"../src/assets/apple.png"
   },
   {
     "id": "2",
     "name": "binoculars-solid",
     "category": "sharp",
-    "icon": "https://ibb.co/1LpYmw6"
+    "icon": "../src/assets/binoculars-solid.png"
   },
   {
     "id": "3",
     "name": "bookmark-solid",
     "category": "brands",
-    "icon": "https://ibb.co/2gCG3zy"
+    "icon": "../src/assets/bookmark-solid.png"
   },
   {
     "id": "4",
     "name": "briefcase-solid",
     "category": "free",
-    "icon": "https://ibb.co/1dh69Xs"
+    "icon": "../src/assets/briefcase-solid.png"
   },
   {
     "id": "5",
     "name": "business-time-solid",
     "category": "classic",
-    "icon": "https://ibb.co/GM8C6Wp"
+    "icon": "../src/assets/business-time-solid.png"
   },
   {
     "id": "6",
     "name": "camera-retro-solid",
     "category": "sharp",
-    "icon": "https://ibb.co/tH4Tr0V"
+    "icon": "../src/assets/camera-retro-solid.png"
   },
   {
     "id": "7",
     "name": "car-solid",
     "category": "brands",
-    "icon": "https://ibb.co/F0yLSZd"
+    "icon": "../src/assets/car-solid.png"
   },
   {
     "id": "8",
     "name": "circle-up-regular",
     "category": "free",
-    "icon": "https://ibb.co/CzmjtKH"
+    "icon": "../src/assets/circle-up-regular.png"
   },
   {
     "id": "9",
     "name": "circle-xmark-regular",
     "category": "sharp",
-    "icon": "https://ibb.co/dgFKxQS"
+    "icon": "../src/assets/circle-xmark-regular.png"
   },
   {
     "id": "10",
     "name": "cloud-solid",
     "category": "classic",
-    "icon": "https://ibb.co/xqyW7tR"
+    "icon": "../src/assets/cloud-solid.png"
   },
   {
     "id": "11",
     "name": "comment-solid",
     "category": "brands",
-    "icon": "https://ibb.co/xJCDrT8"
+    "icon": "../src/assets/comment-solid.png"
   },
   {
     "id": "12",
     "name": "compass-solid",
     "category": "free",
-    "icon": "https://ibb.co/TMVWGhD"
+    "icon": "../src/assets/comment-solid.png"
   },
   {
     "id": "13",
     "name": "face-smile-regular",
     "category": "classic",
-    "icon": "https://ibb.co/BPm3vPm"
+    "icon": "../src/assets/face-smile-regular.png"
   },
   {
     "id": "14",
     "name": "face-smile",
     "category": "sharp",
-    "icon": "https://ibb.co/BPm3vPm"
+    "icon": "../src/assets/face-smile-regular.png"
   },
   {
     "id": "15",
     "name": "fire-solid",
     "category": "brands",
-    "icon": "https://ibb.co/mtWFXm7"
+    "icon": "../src/assets/fire-solid.png"
   },
   {
     "id": "16",
     "name": "flask-solid",
     "category": "free",
-    "icon": "https://ibb.co/HX0Y0ND"
+    "icon": "../src/assets/flask-solid.png"
   },
   {
     "id": "17",
     "name": "folder-open-solid",
     "category": "classic",
-    "icon": "https://ibb.co/N9W11Sd"
+    "icon": "../src/assets/folder-open-solid.png"
   },
   {
     "id": "18",
     "name": "gamepad-solid",
     "category": "sharp",
-    "icon": "https://ibb.co/167Bp13"
+    "icon": "../src/assets/gamepad-solid.png"
   },
   {
     "id": "19",
     "name": "ghost-solid",
     "category": "brands",
-    "icon": "https://ibb.co/H2MvcvY"
+    "icon": "../src/assets/ghost-solid.png"
   },
   {
     "id": "20",
     "name": "handshake-regular",
     "category": "free",
-    "icon": "https://ibb.co/q5PMnvy"
+    "icon": "../src/assets/handshake-regular.png"
   },
   {
     "id": "21",
     "name": "handshake-solid",
     "category": "classic",
-    "icon": "https://ibb.co/VL6zr5y"
+    "icon": "../src/assets/handshake-solid.png"
   },
   {
     "id": "22",
     "name": "hand-solid",
     "category": "sharp",
-    "icon": "https://ibb.co/GPcK3BR"
+    "icon": "../src/assets/handshake-solid.png"
   },
   {
     "id": "23",
     "name": "headphones-solid",
     "category": "brands",
-    "icon": "https://ibb.co/xYW3m70"
+    "icon": "../src/assets/headphones-solid.png"
   },
   {
     "id": "24",
     "name": "headphones-solid",
     "category": "free",
-    "icon": "https://ibb.co/xYW3m70"
+    "icon": "../src/assets/headphones-solid.png"
   },
   {
     "id": "25",
     "name": "hippo-solid",
     "category": "classic",
-    "icon": "https://ibb.co/pwBPqZv"
+    "icon": "../src/assets/hippo-solid.png"
   },
   {
     "id": "26",
     "name": "PayPal",
     "category": "sharp",
-    "icon": "https://ibb.co/xJvqy49"
+    "icon": "../src/assets/paypal.png"
   },
   {
     "id": "27",
     "name": "print-solid",
     "category": "brands",
-    "icon": "https://ibb.co/h7zx9Mf"
+    "icon": "../src/assets/print-solid.png"
   },
   {
     "id": "28",
     "name": "stack-overflow",
     "category": "free",
-    "icon": "https://ibb.co/9qZ2DzK"
+    "icon": "../src/assets/stack-overflow.png"
   },
   {
     "id": "29",
     "name": "stripe",
     "category": "classic",
-    "icon": "https://ibb.co/sqvWy3m"
+    "icon": "../src/assets/stripe.png"
   },
   {
     "id": "30",
     "name": "thumbtack-solid",
     "category": "sharp",
-    "icon": "https://ibb.co/pj6G38z"
+    "icon": "../src/assets/thumbtack-solid.png"
   },
   {
     "id": "31",
     "name": "trash-solid",
     "category": "brands",
-    "icon": "https://ibb.co/QnMWzW7"
+    "icon": "../src/assets/trash-solid.png"
   },
   {
     "id": "32",
     "name": "video-solid",
     "category": "free",
-    "icon": "https://ibb.co/JzTYxFJ"
+    "icon": "../src/assets/video-solid.png"
   },
   {
     "id": "33",
     "name": "wifi-solid",
     "category": "classic",
-    "icon": "https://ibb.co/PNvMYmx"
+    "icon": "../src/assets/wifi-solid.png"
   },
   {
     "id": "34",
     "name": "windows",
     "category": "sharp",
-    "icon": "https://ibb.co/7X8fWVG"
+    "icon": "../src/assets/windows.png"
   },
   {
     "id": "35",
     "name": "youtube",
     "category": "brands",
-    "icon": "https://ibb.co/jG7pYF1"
+    "icon": "../src/assets/youtube.png"
   }
 ]

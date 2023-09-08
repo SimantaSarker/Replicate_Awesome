@@ -1,17 +1,18 @@
+import "../RightDiv/RightDivCard.css"
+
 const RightDivCard = ({card}) => {
-  const {icon}=card;
-  console.log(icon);
+  
   return (
-    <div className="bg-base-100 shadow-xl rounded-2xl">
+    <div className="card w-44 h-44 bg-base-100  flex flex-col items-center justify-center gap-4 card-hover">
       <figure>
         <img
-          src={icon}
+          src={card?.icon}
           alt="Shoes"
+         className="w-10"
         />
       </figure>
-      <div className="card-body">
-        <p>{card?.name}</p>
-      </div>
+      <p>{card?.name}</p>
+     
     </div>
   );
 };

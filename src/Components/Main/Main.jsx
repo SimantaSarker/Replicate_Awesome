@@ -5,7 +5,7 @@ const Main = () => {
   
   return (
     //------------- Main Section---------
-    <div className="flex  justify-between  max-w-screen-2xl mx-auto p-8 bg-[#F0F1F3] flex-wrap">
+    <div className="flex  justify-between  max-w-screen-2xl mx-auto p-8 bg-[#F0F1F3] flex-wrap ">
       <div>
         <LeftDiv></LeftDiv>
       </div>

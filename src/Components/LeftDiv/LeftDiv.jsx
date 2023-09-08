@@ -1,4 +1,3 @@
-import image from "../../../src/assets/adobeTeams.jpg";
 import LeftStyle from "./LeftStyle";
 import "../LeftDiv/LeftStyle.css";
 import LeftFeatured from "../LeftFeatured/LeftFeatured";
@@ -8,7 +7,7 @@ const LeftDiv = () => {
     <div className="space-y-8 left-div">
       <div className="w-60 bg-[#E5DBFF] shadow-xl rounded-xl  h-64 relative">
         <figure className="px-12 pt-6">
-          <img src={image} alt="" className="rounded border-4 border-white" />
+          <img src="https://source.unsplash.com/user/c_v_r" alt="" className="rounded border-4 border-white" />
         </figure>
         <div className="text-center  w-[64%] leading-5  border-cyan-300 mx-auto mt-3">
           <p className="filter-hover">

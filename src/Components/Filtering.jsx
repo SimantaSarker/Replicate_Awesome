@@ -3,25 +3,38 @@ import { PiFlagDuotone } from "react-icons/pi";
 import { TbGridDots } from "react-icons/tb";
 import Classic from "../assets/classic.svg";
 import "./Filter.css";
-const Filtering = () => {
+
+const Filtering = ({ filterOption }) => {
   return (
     <div className="max-w-[1420px] mx-auto  flex justify-between flex-wrap h-44">
       <div className="flex items-center justify-around w-1/3">
-        <div className="flex flex-col items-center justify-center gap-3  image-hover p-5 flex-wrap">
+        <div
+          className="flex flex-col items-center justify-center gap-3  image-hover p-5 flex-wrap"
+          onClick={() => filterOption("classic")}
+        >
           <img src={Classic} className=" h-8 ml-2 mr-2" />
           <h1>Classic</h1>
         </div>
-        <div className="flex flex-col items-center justify-center gap-3 image-hover flex-wrap p-5">
+        <div
+          className="flex flex-col items-center justify-center gap-3 image-hover flex-wrap p-5"
+          onClick={() => filterOption("sharp")}
+        >
           <img src={Classic} className="h-8 ml-2 mr-2 " />
           <h1>Sharp</h1>
         </div>
-        <div className="flex flex-col justify-center items-center image-hover p-5 flex-wrap gap-3">
+        <div
+          className="flex flex-col justify-center items-center image-hover p-5 flex-wrap gap-3"
+          onClick={() => filterOption("brands")}
+        >
           <PiFlagDuotone style={{ fontSize: "2.5rem" }} />
           <h1>Brands</h1>
         </div>
-        <div className="flex flex-col justify-center items-center  image-hover p-5 flex-wrap gap-3">
+        <div
+          className="flex flex-col justify-center items-center  image-hover p-5 flex-wrap gap-3"
+          onClick={() => filterOption("free")}
+        >
           <AiFillThunderbolt style={{ fontSize: "2.5rem" }} />
-          <h1>Free</h1>
+          <h1>Free </h1>
         </div>
       </div>
       <div className="flex justify-around items-center w-1/2">
@@ -65,7 +78,7 @@ const Filtering = () => {
         </div>
         <div>
           <select className="select select-success w-full max-w-xs">
-            <option disabled selected>
+            <option disabled defaultValue>
               Featured
             </option>
             <option>Alphabetically</option>
@@ -73,7 +86,7 @@ const Filtering = () => {
         </div>
         <div>
           <select className="select select-success w-full max-w-xs">
-            <option disabled selected>
+            <option disabled defaultValue>
               6.4.2
             </option>
             <option>5.15.4</option>

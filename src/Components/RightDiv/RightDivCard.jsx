@@ -3,12 +3,13 @@ import "../RightDiv/RightDivCard.css"
 const RightDivCard = ({card}) => {
   
   return (
-    <div className="card w-44 h-44 bg-base-100  flex flex-col items-center justify-center gap-4 card-hover">
+    <div className="card  h-36 p-3 bg-base-100  flex flex-col items-center justify-center gap-5 card-hover text-center text-xs">
       <figure>
         <img
           src={card?.icon}
           alt="Shoes"
-         className="w-10"
+         className="w-6"
+      
         />
       </figure>
       <p>{card?.name}</p>

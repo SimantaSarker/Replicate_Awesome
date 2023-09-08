@@ -1,0 +1,30 @@
+.image-hover {
+  cursor: pointer;
+}
+
+.image-hover:hover {
+  border-bottom: 3px solid blue;
+  color: blue;
+}
+
+.filter-hover{
+  cursor: pointer;
+}
+.filter-hover:hover{
+  color: blue;
+}
+
+.footer-hover{
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  font-style: normal;
+}
+
+.footer-hover:hover{
+  color: #54C0FC;
+}
+.circle-hover:hover{
+  background-color: red;
+}

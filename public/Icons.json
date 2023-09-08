@@ -1,0 +1,212 @@
+[
+  {
+    "id": "1",
+    "name": "apple",
+    "category": "classic",
+    "icon": "https://ibb.co/TrNJvHt"
+  },
+  {
+    "id": "2",
+    "name": "binoculars-solid",
+    "category": "sharp",
+    "icon": "https://ibb.co/1LpYmw6"
+  },
+  {
+    "id": "3",
+    "name": "bookmark-solid",
+    "category": "brands",
+    "icon": "https://ibb.co/2gCG3zy"
+  },
+  {
+    "id": "4",
+    "name": "briefcase-solid",
+    "category": "free",
+    "icon": "https://ibb.co/1dh69Xs"
+  },
+  {
+    "id": "5",
+    "name": "business-time-solid",
+    "category": "classic",
+    "icon": "https://ibb.co/GM8C6Wp"
+  },
+  {
+    "id": "6",
+    "name": "camera-retro-solid",
+    "category": "sharp",
+    "icon": "https://ibb.co/tH4Tr0V"
+  },
+  {
+    "id": "7",
+    "name": "car-solid",
+    "category": "brands",
+    "icon": "https://ibb.co/F0yLSZd"
+  },
+  {
+    "id": "8",
+    "name": "circle-up-regular",
+    "category": "free",
+    "icon": "https://ibb.co/CzmjtKH"
+  },
+  {
+    "id": "9",
+    "name": "circle-xmark-regular",
+    "category": "sharp",
+    "icon": "https://ibb.co/dgFKxQS"
+  },
+  {
+    "id": "10",
+    "name": "cloud-solid",
+    "category": "classic",
+    "icon": "https://ibb.co/xqyW7tR"
+  },
+  {
+    "id": "11",
+    "name": "comment-solid",
+    "category": "brands",
+    "icon": "https://ibb.co/xJCDrT8"
+  },
+  {
+    "id": "12",
+    "name": "compass-solid",
+    "category": "free",
+    "icon": "https://ibb.co/TMVWGhD"
+  },
+  {
+    "id": "13",
+    "name": "face-smile-regular",
+    "category": "classic",
+    "icon": "https://ibb.co/BPm3vPm"
+  },
+  {
+    "id": "14",
+    "name": "face-smile",
+    "category": "sharp",
+    "icon": "https://ibb.co/BPm3vPm"
+  },
+  {
+    "id": "15",
+    "name": "fire-solid",
+    "category": "brands",
+    "icon": "https://ibb.co/mtWFXm7"
+  },
+  {
+    "id": "16",
+    "name": "flask-solid",
+    "category": "free",
+    "icon": "https://ibb.co/HX0Y0ND"
+  },
+  {
+    "id": "17",
+    "name": "folder-open-solid",
+    "category": "classic",
+    "icon": "https://ibb.co/N9W11Sd"
+  },
+  {
+    "id": "18",
+    "name": "gamepad-solid",
+    "category": "sharp",
+    "icon": "https://ibb.co/167Bp13"
+  },
+  {
+    "id": "19",
+    "name": "ghost-solid",
+    "category": "brands",
+    "icon": "https://ibb.co/H2MvcvY"
+  },
+  {
+    "id": "20",
+    "name": "handshake-regular",
+    "category": "free",
+    "icon": "https://ibb.co/q5PMnvy"
+  },
+  {
+    "id": "21",
+    "name": "handshake-solid",
+    "category": "classic",
+    "icon": "https://ibb.co/VL6zr5y"
+  },
+  {
+    "id": "22",
+    "name": "hand-solid",
+    "category": "sharp",
+    "icon": "https://ibb.co/GPcK3BR"
+  },
+  {
+    "id": "23",
+    "name": "headphones-solid",
+    "category": "brands",
+    "icon": "https://ibb.co/xYW3m70"
+  },
+  {
+    "id": "24",
+    "name": "headphones-solid",
+    "category": "free",
+    "icon": "https://ibb.co/xYW3m70"
+  },
+  {
+    "id": "25",
+    "name": "hippo-solid",
+    "category": "classic",
+    "icon": "https://ibb.co/pwBPqZv"
+  },
+  {
+    "id": "26",
+    "name": "PayPal",
+    "category": "sharp",
+    "icon": "https://ibb.co/xJvqy49"
+  },
+  {
+    "id": "27",
+    "name": "print-solid",
+    "category": "brands",
+    "icon": "https://ibb.co/h7zx9Mf"
+  },
+  {
+    "id": "28",
+    "name": "stack-overflow",
+    "category": "free",
+    "icon": "https://ibb.co/9qZ2DzK"
+  },
+  {
+    "id": "29",
+    "name": "stripe",
+    "category": "classic",
+    "icon": "https://ibb.co/sqvWy3m"
+  },
+  {
+    "id": "30",
+    "name": "thumbtack-solid",
+    "category": "sharp",
+    "icon": "https://ibb.co/pj6G38z"
+  },
+  {
+    "id": "31",
+    "name": "trash-solid",
+    "category": "brands",
+    "icon": "https://ibb.co/QnMWzW7"
+  },
+  {
+    "id": "32",
+    "name": "video-solid",
+    "category": "free",
+    "icon": "https://ibb.co/JzTYxFJ"
+  },
+  {
+    "id": "33",
+    "name": "wifi-solid",
+    "category": "classic",
+    "icon": "https://ibb.co/PNvMYmx"
+  },
+  {
+    "id": "34",
+    "name": "windows",
+    "category": "sharp",
+    "icon": "https://ibb.co/7X8fWVG"
+  },
+  {
+    "id": "35",
+    "name": "youtube",
+    "category": "brands",
+    "icon": "https://ibb.co/jG7pYF1"
+  }
+]

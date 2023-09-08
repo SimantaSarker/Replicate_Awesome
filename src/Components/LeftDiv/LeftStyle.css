@@ -1,0 +1,14 @@
+.left-div {
+  font-family: "cera-round-pro, " Helvetica Neue
+    ", Helvetica, Arial, sans-serif";
+  font-weight: normal;
+  font-size: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #183153;
+}
+
+.single-row:hover {
+  cursor: pointer;
+  color: #1b7a0e;
+}

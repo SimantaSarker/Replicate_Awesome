@@ -4,7 +4,7 @@ import { TbGridDots } from "react-icons/tb";
 import Classic from "../assets/classic.svg";
 import "./Filter.css";
 
-const Filtering = ({ filterOption }) => {
+const Filtering = ({ filterOption,cardShape }) => {
   return (
     <div className="max-w-[1420px] mx-auto  flex justify-between flex-wrap h-44">
       <div className="flex items-center justify-around w-1/3">
@@ -39,10 +39,10 @@ const Filtering = ({ filterOption }) => {
       </div>
       <div className="flex justify-around items-center w-1/2">
         <div className="flex items-center justify-around gap-5">
-          <div className="filter-hover">
+          <div className="filter-hover" onClick={()=>cardShape("smallCard")}>
             <TbGridDots style={{ fontSize: "2rem" }}></TbGridDots>
           </div>
-          <div className="filter-hover">
+          <div className="filter-hover" onClick={()=>cardShape("listCard")}>
             <svg
               style={{ fontSize: "2rem" }}
               xmlns="http://www.w3.org/2000/svg"
@@ -59,7 +59,7 @@ const Filtering = ({ filterOption }) => {
               />
             </svg>
           </div>
-          <div className="filter-hover">
+          <div className="filter-hover" onClick={()=>cardShape("enormousCard")}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

@@ -1,7 +1,7 @@
 import LeftDiv from "../LeftDiv/LeftDiv";
 import RightDiv from "../RightDiv/RightDiv";
 
-const Main = ({data,filteredArray}) => {
+const Main = ({data,filteredArray,cardOption}) => {
 
   return (
     <div>
@@ -12,7 +12,7 @@ const Main = ({data,filteredArray}) => {
           <LeftDiv></LeftDiv>
         </div>
         <div className="w-[80%]">
-          <RightDiv data={data} filteredArray={filteredArray} ></RightDiv>
+          <RightDiv data={data} filteredArray={filteredArray}  cardOption={cardOption}></RightDiv>
         </div>
       </div>
     </div>

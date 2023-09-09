@@ -1,10 +1,12 @@
 .image-hover {
   cursor: pointer;
+  
 }
 
 .image-hover:hover {
   border-bottom: 3px solid blue;
   color: blue;
+
 }
 
 .filter-hover{

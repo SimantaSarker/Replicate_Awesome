@@ -9,7 +9,7 @@ function App() {
   const [value, setValue] = useState(null);
   const [data, setData] = useState([]);
   const [condition, setCondition] = useState(true);
-  const [cardOption,setCardOption]=useState("smallCard");
+  const [cardOption, setCardOption] = useState("smallCard");
 
   useEffect(() => {
     fetch("Icons.json")
@@ -19,9 +19,9 @@ function App() {
       });
   });
 
-  const cardShape=option=>{
-    setCardOption(option)
-  }
+  const cardShape = (option) => {
+    setCardOption(option);
+  };
 
   const filterOption = (option) => {
     setValue(option);
@@ -34,7 +34,11 @@ function App() {
       <Header></Header>
       <Search></Search>
       <Filtering filterOption={filterOption} cardShape={cardShape}></Filtering>
-      {condition ? ( <Main data={data} cardOption={cardOption}  />) : (<Main filteredArray={filteredArray} cardOption={cardOption} />)}
+      {condition ? (
+        <Main data={data} cardOption={cardOption} />
+      ) : (
+        <Main filteredArray={filteredArray} cardOption={cardOption} />
+      )}
       <Footer></Footer>
     </div>
   );

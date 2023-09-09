@@ -3,210 +3,210 @@
     "id": "1",
     "name": "apple",
     "category": "classic",
-    "icon":"../src/assets/apple.png"
+    "icon":"./apple.png"
   },
   {
     "id": "2",
     "name": "binoculars-solid",
     "category": "sharp",
-    "icon": "../src/assets/binoculars-solid.png"
+    "icon": "./binoculars-solid.png"
   },
   {
     "id": "3",
     "name": "bookmark-solid",
     "category": "brands",
-    "icon": "../src/assets/bookmark-solid.png"
+    "icon": "./bookmark-solid.png"
   },
   {
     "id": "4",
     "name": "briefcase-solid",
     "category": "free",
-    "icon": "../src/assets/briefcase-solid.png"
+    "icon": "./briefcase-solid.png"
   },
   {
     "id": "5",
     "name": "business-time-solid",
     "category": "classic",
-    "icon": "../src/assets/business-time-solid.png"
+    "icon": "./business-time-solid.png"
   },
   {
     "id": "6",
     "name": "camera-retro-solid",
     "category": "sharp",
-    "icon": "../src/assets/camera-retro-solid.png"
+    "icon": "./camera-retro-solid.png"
   },
   {
     "id": "7",
     "name": "car-solid",
     "category": "brands",
-    "icon": "../src/assets/car-solid.png"
+    "icon": "./car-solid.png"
   },
   {
     "id": "8",
     "name": "circle-up-regular",
     "category": "free",
-    "icon": "../src/assets/circle-up-regular.png"
+    "icon": "./circle-up-regular.png"
   },
   {
     "id": "9",
     "name": "circle-xmark-regular",
     "category": "sharp",
-    "icon": "../src/assets/circle-xmark-regular.png"
+    "icon": "./circle-xmark-regular.png"
   },
   {
     "id": "10",
     "name": "cloud-solid",
     "category": "classic",
-    "icon": "../src/assets/cloud-solid.png"
+    "icon": "./cloud-solid.png"
   },
   {
     "id": "11",
     "name": "comment-solid",
     "category": "brands",
-    "icon": "../src/assets/comment-solid.png"
+    "icon": "./comment-solid.png"
   },
   {
     "id": "12",
     "name": "compass-solid",
     "category": "free",
-    "icon": "../src/assets/comment-solid.png"
+    "icon": "./comment-solid.png"
   },
   {
     "id": "13",
     "name": "face-smile-regular",
     "category": "classic",
-    "icon": "../src/assets/face-smile-regular.png"
+    "icon": "./face-smile-regular.png"
   },
   {
     "id": "14",
     "name": "face-smile",
     "category": "sharp",
-    "icon": "../src/assets/face-smile-regular.png"
+    "icon": "./face-smile-regular.png"
   },
   {
     "id": "15",
     "name": "fire-solid",
     "category": "brands",
-    "icon": "../src/assets/fire-solid.png"
+    "icon": "./fire-solid.png"
   },
   {
     "id": "16",
     "name": "flask-solid",
     "category": "free",
-    "icon": "../src/assets/flask-solid.png"
+    "icon": "./flask-solid.png"
   },
   {
     "id": "17",
     "name": "folder-open-solid",
     "category": "classic",
-    "icon": "../src/assets/folder-open-solid.png"
+    "icon": "./folder-open-solid.png"
   },
   {
     "id": "18",
     "name": "gamepad-solid",
     "category": "sharp",
-    "icon": "../src/assets/gamepad-solid.png"
+    "icon": "./gamepad-solid.png"
   },
   {
     "id": "19",
     "name": "ghost-solid",
     "category": "brands",
-    "icon": "../src/assets/ghost-solid.png"
+    "icon": "./ghost-solid.png"
   },
   {
     "id": "20",
     "name": "handshake-regular",
     "category": "free",
-    "icon": "../src/assets/handshake-regular.png"
+    "icon": "./handshake-regular.png"
   },
   {
     "id": "21",
     "name": "handshake-solid",
     "category": "classic",
-    "icon": "../src/assets/handshake-solid.png"
+    "icon": "./handshake-solid.png"
   },
   {
     "id": "22",
     "name": "hand-solid",
     "category": "sharp",
-    "icon": "../src/assets/handshake-solid.png"
+    "icon": "./handshake-solid.png"
   },
   {
     "id": "23",
     "name": "headphones-solid",
     "category": "brands",
-    "icon": "../src/assets/headphones-solid.png"
+    "icon": "./headphones-solid.png"
   },
   {
     "id": "24",
     "name": "headphones-solid",
     "category": "free",
-    "icon": "../src/assets/headphones-solid.png"
+    "icon": "./headphones-solid.png"
   },
   {
     "id": "25",
     "name": "hippo-solid",
     "category": "classic",
-    "icon": "../src/assets/hippo-solid.png"
+    "icon": "./hippo-solid.png"
   },
   {
     "id": "26",
     "name": "PayPal",
     "category": "sharp",
-    "icon": "../src/assets/paypal.png"
+    "icon": "./paypal.png"
   },
   {
     "id": "27",
     "name": "print-solid",
     "category": "brands",
-    "icon": "../src/assets/print-solid.png"
+    "icon": "./print-solid.png"
   },
   {
     "id": "28",
     "name": "stack-overflow",
     "category": "free",
-    "icon": "../src/assets/stack-overflow.png"
+    "icon": "./stack-overflow.png"
   },
   {
     "id": "29",
     "name": "stripe",
     "category": "classic",
-    "icon": "../src/assets/stripe.png"
+    "icon": "./stripe.png"
   },
   {
     "id": "30",
     "name": "thumbtack-solid",
     "category": "sharp",
-    "icon": "../src/assets/thumbtack-solid.png"
+    "icon": "./thumbtack-solid.png"
   },
   {
     "id": "31",
     "name": "trash-solid",
     "category": "brands",
-    "icon": "../src/assets/trash-solid.png"
+    "icon": "./trash-solid.png"
   },
   {
     "id": "32",
     "name": "video-solid",
     "category": "free",
-    "icon": "../src/assets/video-solid.png"
+    "icon": "./video-solid.png"
   },
   {
     "id": "33",
     "name": "wifi-solid",
     "category": "classic",
-    "icon": "../src/assets/wifi-solid.png"
+    "icon": "./wifi-solid.png"
   },
   {
     "id": "34",
     "name": "windows",
     "category": "sharp",
-    "icon": "../src/assets/windows.png"
+    "icon": "./windows.png"
   },
   {
     "id": "35",
     "name": "youtube",
     "category": "brands",
-    "icon": "../src/assets/youtube.png"
+    "icon": "./youtube.png"
   }
 ]

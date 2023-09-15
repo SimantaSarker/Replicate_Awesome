@@ -3,210 +3,245 @@
     "id": "1",
     "name": "apple",
     "category": "classic",
-    "icon":"./apple.png"
+    "icon": "./apple.png",
+    "style": "solid"
   },
   {
     "id": "2",
     "name": "binoculars-solid",
     "category": "sharp",
-    "icon": "./binoculars-solid.png"
+    "icon": "./binoculars-solid.png",
+    "style": "regular"
   },
   {
     "id": "3",
     "name": "bookmark-solid",
     "category": "brands",
-    "icon": "./bookmark-solid.png"
+    "icon": "./bookmark-solid.png",
+    "style": "light"
   },
   {
     "id": "4",
     "name": "briefcase-solid",
     "category": "free",
-    "icon": "./briefcase-solid.png"
+    "icon": "./briefcase-solid.png",
+    "style": "thin"
   },
   {
     "id": "5",
     "name": "business-time-solid",
     "category": "classic",
-    "icon": "./business-time-solid.png"
+    "icon": "./business-time-solid.png",
+    "style": "solid"
   },
   {
     "id": "6",
     "name": "camera-retro-solid",
     "category": "sharp",
-    "icon": "./camera-retro-solid.png"
+    "icon": "./camera-retro-solid.png",
+    "style": "regular"
   },
   {
     "id": "7",
     "name": "car-solid",
     "category": "brands",
-    "icon": "./car-solid.png"
+    "icon": "./car-solid.png",
+    "style": "light"
   },
   {
     "id": "8",
     "name": "circle-up-regular",
     "category": "free",
-    "icon": "./circle-up-regular.png"
+    "icon": "./circle-up-regular.png",
+    "style": "thin"
   },
   {
     "id": "9",
     "name": "circle-xmark-regular",
     "category": "sharp",
-    "icon": "./circle-xmark-regular.png"
+    "icon": "./circle-xmark-regular.png",
+    "style": "solid"
   },
   {
     "id": "10",
     "name": "cloud-solid",
     "category": "classic",
-    "icon": "./cloud-solid.png"
+    "icon": "./cloud-solid.png",
+    "style": "regular"
   },
   {
     "id": "11",
     "name": "comment-solid",
     "category": "brands",
-    "icon": "./comment-solid.png"
+    "icon": "./comment-solid.png",
+    "style": "light"
   },
   {
     "id": "12",
     "name": "compass-solid",
     "category": "free",
-    "icon": "./comment-solid.png"
+    "icon": "./comment-solid.png",
+    "style": "thin"
   },
   {
     "id": "13",
     "name": "face-smile-regular",
     "category": "classic",
-    "icon": "./face-smile-regular.png"
+    "icon": "./face-smile-regular.png",
+    "style": "solid"
   },
   {
     "id": "14",
     "name": "face-smile",
     "category": "sharp",
-    "icon": "./face-smile-regular.png"
+    "icon": "./face-smile-regular.png",
+    "style": "regular"
   },
   {
     "id": "15",
     "name": "fire-solid",
     "category": "brands",
-    "icon": "./fire-solid.png"
+    "icon": "./fire-solid.png",
+    "style": "light"
   },
   {
     "id": "16",
     "name": "flask-solid",
     "category": "free",
-    "icon": "./flask-solid.png"
+    "icon": "./flask-solid.png",
+    "style": "thin"
   },
   {
     "id": "17",
     "name": "folder-open-solid",
     "category": "classic",
-    "icon": "./folder-open-solid.png"
+    "icon": "./folder-open-solid.png",
+    "style": "solid"
   },
   {
     "id": "18",
     "name": "gamepad-solid",
     "category": "sharp",
-    "icon": "./gamepad-solid.png"
+    "icon": "./gamepad-solid.png",
+    "style": "regular"
   },
   {
     "id": "19",
     "name": "ghost-solid",
     "category": "brands",
-    "icon": "./ghost-solid.png"
+    "icon": "./ghost-solid.png",
+    "style": "light"
   },
   {
     "id": "20",
     "name": "handshake-regular",
     "category": "free",
-    "icon": "./handshake-regular.png"
+    "icon": "./handshake-regular.png",
+    "style": "thin"
   },
   {
     "id": "21",
     "name": "handshake-solid",
     "category": "classic",
-    "icon": "./handshake-solid.png"
+    "icon": "./handshake-solid.png",
+    "style": "solid"
   },
   {
     "id": "22",
     "name": "hand-solid",
     "category": "sharp",
-    "icon": "./handshake-solid.png"
+    "icon": "./handshake-solid.png",
+    "style": "regular"
   },
   {
     "id": "23",
     "name": "headphones-solid",
     "category": "brands",
-    "icon": "./headphones-solid.png"
+    "icon": "./headphones-solid.png",
+    "style": "light"
   },
   {
     "id": "24",
     "name": "headphones-solid",
     "category": "free",
-    "icon": "./headphones-solid.png"
+    "icon": "./headphones-solid.png",
+    "style": "thin"
   },
   {
     "id": "25",
     "name": "hippo-solid",
     "category": "classic",
-    "icon": "./hippo-solid.png"
+    "icon": "./hippo-solid.png",
+    "style": "solid"
   },
   {
     "id": "26",
     "name": "PayPal",
     "category": "sharp",
-    "icon": "./paypal.png"
+    "icon": "./paypal.png",
+    "style": "regular"
   },
   {
     "id": "27",
     "name": "print-solid",
     "category": "brands",
-    "icon": "./print-solid.png"
+    "icon": "./print-solid.png",
+    "style": "light"
   },
   {
     "id": "28",
     "name": "stack-overflow",
     "category": "free",
-    "icon": "./stack-overflow.png"
+    "icon": "./stack-overflow.png",
+    "style": "thin"
   },
   {
     "id": "29",
     "name": "stripe",
     "category": "classic",
-    "icon": "./stripe.png"
+    "icon": "./stripe.png",
+    "style": "solid"
   },
   {
     "id": "30",
     "name": "thumbtack-solid",
     "category": "sharp",
-    "icon": "./thumbtack-solid.png"
+    "icon": "./thumbtack-solid.png",
+    "style": "regular"
   },
   {
     "id": "31",
     "name": "trash-solid",
     "category": "brands",
-    "icon": "./trash-solid.png"
+    "icon": "./trash-solid.png",
+    "style": "light"
   },
   {
     "id": "32",
     "name": "video-solid",
     "category": "free",
-    "icon": "./video-solid.png"
+    "icon": "./video-solid.png",
+    "style": "thin"
   },
   {
     "id": "33",
     "name": "wifi-solid",
     "category": "classic",
-    "icon": "./wifi-solid.png"
+    "icon": "./wifi-solid.png",
+    "style": "solid"
   },
   {
     "id": "34",
     "name": "windows",
     "category": "sharp",
-    "icon": "./windows.png"
+    "icon": "./windows.png",
+    "style": "regular"
   },
   {
     "id": "35",
     "name": "youtube",
     "category": "brands",
-    "icon": "./youtube.png"
+    "icon": "./youtube.png",
+    "style": "light"
   }
 ]

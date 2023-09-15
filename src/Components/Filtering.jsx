@@ -3,8 +3,13 @@ import { PiFlagDuotone } from "react-icons/pi";
 import { TbGridDots } from "react-icons/tb";
 import Classic from "../assets/classic.svg";
 import "./Filter.css";
+// import { useState } from "react";
 
-const Filtering = ({ filterOption, cardShape }) => {
+const Filtering = ({ filterOption }) => {
+  // const [clickCount, setClickCount] = useState(0);
+
+ 
+
   return (
     <div className="max-w-[1420px] mx-auto  flex justify-between flex-wrap h-44 ">
       <div className="flex items-center justify-around w-1/3 ">
@@ -12,6 +17,7 @@ const Filtering = ({ filterOption, cardShape }) => {
           className="flex flex-col items-center justify-center gap-3  image-hover p-5 flex-wrap "
           onClick={() => filterOption("classic")}
         >
+     
           <img src={Classic} className=" h-8 ml-2 mr-2" />
           <h1>Classic</h1>
         </div>
@@ -19,6 +25,7 @@ const Filtering = ({ filterOption, cardShape }) => {
           className="flex flex-col items-center justify-center gap-3 image-hover flex-wrap p-5"
           onClick={() => filterOption("sharp")}
         >
+      
           <img src={Classic} className="h-8 ml-2 mr-2 " />
           <h1>Sharp</h1>
         </div>
@@ -26,6 +33,7 @@ const Filtering = ({ filterOption, cardShape }) => {
           className="flex flex-col justify-center items-center image-hover p-5 flex-wrap gap-3"
           onClick={() => filterOption("brands")}
         >
+     
           <PiFlagDuotone style={{ fontSize: "2.5rem" }} />
           <h1>Brands</h1>
         </div>
@@ -33,16 +41,17 @@ const Filtering = ({ filterOption, cardShape }) => {
           className="flex flex-col justify-center items-center  image-hover p-5 flex-wrap gap-3"
           onClick={() => filterOption("free")}
         >
+   
           <AiFillThunderbolt style={{ fontSize: "2.5rem" }} />
           <h1>Free </h1>
         </div>
       </div>
       <div className="flex justify-around items-center w-1/2">
         <div className="flex items-center justify-around gap-5">
-          <div className="filter-hover" onClick={() => cardShape("smallCard")}>
+          <div className="filter-hover">
             <TbGridDots style={{ fontSize: "2rem" }}></TbGridDots>
           </div>
-          <div className="filter-hover" onClick={() => cardShape("listCard")}>
+          <div className="filter-hover">
             <svg
               style={{ fontSize: "2rem" }}
               xmlns="http://www.w3.org/2000/svg"
@@ -59,10 +68,7 @@ const Filtering = ({ filterOption, cardShape }) => {
               />
             </svg>
           </div>
-          <div
-            className="filter-hover"
-            onClick={() => cardShape("enormousCard")}
-          >
+          <div className="filter-hover">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

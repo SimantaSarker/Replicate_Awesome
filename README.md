@@ -2,4 +2,4 @@
 
 
 - Live Site 
-- https://monumental-pothos-68f263.netlify.app/
+- https://6504070601362f6716cdbec8--monumental-pothos-68f263.netlify.app/

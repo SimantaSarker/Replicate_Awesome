@@ -18,11 +18,6 @@ const RightDiv = ({ data,filteredObjects }) => {
         {filteredObjects?.map((card, index) => (
           <RightDivCard key={index} card={card}></RightDivCard>
         ))}
-        {/* {
-            filteredObjects==[] ? 
-            data?.map((card,index)=> <RightDivCard key={index} card={card}></RightDivCard>)
-            :filteredObjects?.map((card, index)=> <RightDivCard key={index} card={card}></RightDivCard>)
-        } */}
       </div>
     </div>
   );

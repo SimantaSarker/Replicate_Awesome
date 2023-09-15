@@ -9,6 +9,7 @@ function App() {
   const [data, setData] = useState([]);
   // const [condition, setCondition] = useState(true);
   const [appliedJobs, setAppliedJobs] = useState([]);
+  const [style,setStyle]=useState([]);
 
   useEffect(() => {
     fetch("Icons.json")
@@ -18,35 +19,57 @@ function App() {
       });
   });
 
+  const styleFilterOption = (option) => {
+    if (style.includes(option)) {
+      setStyle(style.filter((job) => job !== option));
+    } else {
+      setStyle([...style, option]);
+    }
+  
+  };
+
+
 
 
   const filterOption = (option) => {
-    // Toggle the selected category in the array
-    // setCondition(false);
-  
+
     if (appliedJobs.includes(option)) {
       // If category is already selected, remove it
       setAppliedJobs(appliedJobs.filter((job) => job !== option));
     } else {
       // If category is not selected, add it
       setAppliedJobs([...appliedJobs, option]);
-      
     }
   };
- 
+  
+  const filteredObjects = data?.filter((obj) =>
+  appliedJobs.includes(obj.category)
+  );
+  
+  const styleFiltered = filteredObjects.filter((obj) =>
+    style.includes(obj.style)
+    // console.log(obj.style)
+  );
 
-  const filteredObjects = data.filter(obj => appliedJobs.includes(obj.category));
 
+
+
+
+
+  
 
   return (
     <div>
       <Header></Header>
       <Search></Search>
       <Filtering filterOption={filterOption}></Filtering>
-      {filteredObjects.length==0 ? (
-        <Main data={data} />
+      {filteredObjects.length == 0 ? (
+        <Main data={data} styleFilterOption={styleFilterOption} />
       ) : (
-        <Main  filteredObjects={filteredObjects}/>
+        <Main
+          filteredObjects={filteredObjects}
+          styleFilterOption={styleFilterOption}
+        />
       )}
       <Footer></Footer>
     </div>

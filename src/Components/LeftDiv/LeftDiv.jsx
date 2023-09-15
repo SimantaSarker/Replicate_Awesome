@@ -2,7 +2,7 @@ import LeftStyle from "./LeftStyle";
 import "../LeftDiv/LeftStyle.css";
 import LeftFeatured from "../LeftFeatured/LeftFeatured";
 import LeftCategories from "../LeftCategories/LeftCategories";
-const LeftDiv = () => {
+const LeftDiv = ({styleFilterOption}) => {
   return (
     <div className="space-y-8 left-div">
       <div className="w-60 bg-[#E5DBFF] shadow-xl rounded-xl  h-64 relative">
@@ -42,7 +42,7 @@ const LeftDiv = () => {
           </svg>
         </button>
       </div>
-      <LeftStyle></LeftStyle>
+      <LeftStyle styleFilterOption={styleFilterOption}></LeftStyle>
       <LeftFeatured></LeftFeatured>
       <LeftCategories></LeftCategories>
     </div>

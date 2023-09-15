@@ -8,7 +8,7 @@ const RightDivCard = ({ card }) => {
         <img src={card?.icon} alt="Shoes" className="w-8" />
       </figure>
       <p>{card?.name}</p>
-      <p>{card?.category}</p>
+    
     </div>
   );
 };

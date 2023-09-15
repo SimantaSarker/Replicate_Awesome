@@ -1,10 +1,8 @@
 import RightDivCard from "./RightDivCard";
 
-const RightDiv = ({ data, filteredObjects }) => {
- 
-  
-  
+const RightDiv = ({ data,filteredObjects }) => {
 
+  
 
   return (
     <div className="font">
@@ -20,6 +18,11 @@ const RightDiv = ({ data, filteredObjects }) => {
         {filteredObjects?.map((card, index) => (
           <RightDivCard key={index} card={card}></RightDivCard>
         ))}
+        {/* {
+            filteredObjects==[] ? 
+            data?.map((card,index)=> <RightDivCard key={index} card={card}></RightDivCard>)
+            :filteredObjects?.map((card, index)=> <RightDivCard key={index} card={card}></RightDivCard>)
+        } */}
       </div>
     </div>
   );

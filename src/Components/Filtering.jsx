@@ -1,53 +1,82 @@
+import { useState } from "react";
 import { AiFillThunderbolt } from "react-icons/ai";
 import { PiFlagDuotone } from "react-icons/pi";
 import { TbGridDots } from "react-icons/tb";
 import Classic from "../assets/classic.svg";
 import "./Filter.css";
-// import { useState } from "react";
 
 const Filtering = ({ filterOption }) => {
-  // const [clickCount, setClickCount] = useState(0);
+  // State to track the selected categories
+  const [selectedCategories, setSelectedCategories] = useState([]);
 
- 
+  // Function to handle category click
+  const handleCategoryClick = (category) => {
+    if (selectedCategories.includes(category)) {
+      // If the category is already selected, deselect it
+      setSelectedCategories((prevCategories) =>
+        prevCategories.filter((prevCategory) => prevCategory !== category)
+      );
+      filterOption(category);
+    } else {
+      // Select the category
+      setSelectedCategories((prevCategories) => [...prevCategories, category]);
+      filterOption(category);
+    }
+  };
+
+  // Helper function to check if a category is selected
+  const isCategorySelected = (category) => {
+    return selectedCategories.includes(category);
+  };
+
+  // Function to apply the filter and call the filterOption function
 
   return (
-    <div className="max-w-[1420px] mx-auto  flex justify-between flex-wrap h-44 ">
+    <div className="max-w-[1420px] mx-auto flex justify-between flex-wrap h-44">
       <div className="flex items-center justify-around w-1/3 ">
+        {/* Classic */}
         <div
-          className="flex flex-col items-center justify-center gap-3  image-hover p-5 flex-wrap "
-          onClick={() => filterOption("classic")}
+          className={`flex flex-col items-center justify-center gap-3 image-hover p-5 flex-wrap ${
+            isCategorySelected("classic") ? "border-b-2 border-blue-500" : ""
+          }`}
+          onClick={() => handleCategoryClick("classic")}
         >
-     
-          <img src={Classic} className=" h-8 ml-2 mr-2" />
+          <img src={Classic} className="h-8 ml-2 mr-2" alt="Classic" />
           <h1>Classic</h1>
         </div>
+        {/* Sharp */}
         <div
-          className="flex flex-col items-center justify-center gap-3 image-hover flex-wrap p-5"
-          onClick={() => filterOption("sharp")}
+          className={`flex flex-col items-center justify-center gap-3 image-hover flex-wrap p-5 ${
+            isCategorySelected("sharp") ? "border-b-2 border-blue-500" : ""
+          }`}
+          onClick={() => handleCategoryClick("sharp")}
         >
-      
-          <img src={Classic} className="h-8 ml-2 mr-2 " />
+          <img src={Classic} className="h-8 ml-2 mr-2" alt="Sharp" />
           <h1>Sharp</h1>
         </div>
+        {/* Brands */}
         <div
-          className="flex flex-col justify-center items-center image-hover p-5 flex-wrap gap-3"
-          onClick={() => filterOption("brands")}
+          className={`flex flex-col justify-center items-center image-hover p-5 flex-wrap gap-3 ${
+            isCategorySelected("brands") ? "border-b-2 border-blue-500" : ""
+          }`}
+          onClick={() => handleCategoryClick("brands")}
         >
-     
           <PiFlagDuotone style={{ fontSize: "2.5rem" }} />
           <h1>Brands</h1>
         </div>
+        {/* Free */}
         <div
-          className="flex flex-col justify-center items-center  image-hover p-5 flex-wrap gap-3"
-          onClick={() => filterOption("free")}
+          className={`flex flex-col justify-center items-center image-hover p-5 flex-wrap gap-3 ${
+            isCategorySelected("free") ? "border-b-2 border-blue-500" : ""
+          }`}
+          onClick={() => handleCategoryClick("free")}
         >
-   
           <AiFillThunderbolt style={{ fontSize: "2.5rem" }} />
-          <h1>Free </h1>
+          <h1>Free</h1>
         </div>
       </div>
       <div className="flex justify-around items-center w-1/2">
-        <div className="flex items-center justify-around gap-5">
+      <div className="flex items-center justify-around gap-5">
           <div className="filter-hover">
             <TbGridDots style={{ fontSize: "2rem" }}></TbGridDots>
           </div>
@@ -102,6 +131,15 @@ const Filtering = ({ filterOption }) => {
             <option>All Versions</option>
           </select>
         </div>
+        {/* Apply Filter Button */}
+        {/* <div>
+          <button
+            onClick={applyFilter}
+            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
+          >
+            Apply Filter
+          </button>
+        </div> */}
       </div>
     </div>
   );

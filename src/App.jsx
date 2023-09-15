@@ -7,7 +7,7 @@ import Search from "./Components/Search";
 
 function App() {
   const [data, setData] = useState([]);
-  const [condition, setCondition] = useState(true);
+  // const [condition, setCondition] = useState(true);
   const [appliedJobs, setAppliedJobs] = useState([]);
 
   useEffect(() => {
@@ -22,7 +22,7 @@ function App() {
 
   const filterOption = (option) => {
     // Toggle the selected category in the array
-    setCondition(false);
+    // setCondition(false);
   
     if (appliedJobs.includes(option)) {
       // If category is already selected, remove it
@@ -36,17 +36,17 @@ function App() {
  
 
   const filteredObjects = data.filter(obj => appliedJobs.includes(obj.category));
- 
+
 
   return (
     <div>
       <Header></Header>
       <Search></Search>
       <Filtering filterOption={filterOption}></Filtering>
-      {condition ? (
+      {filteredObjects.length==0 ? (
         <Main data={data} />
       ) : (
-        <Main  filteredObjects={filteredObjects} />
+        <Main  filteredObjects={filteredObjects}/>
       )}
       <Footer></Footer>
     </div>

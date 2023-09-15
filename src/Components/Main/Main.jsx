@@ -12,6 +12,7 @@ const Main = ({data,filteredObjects}) => {
           <LeftDiv></LeftDiv>
         </div>
         <div className="w-[80%]">
+          {/* <RightDiv filteredObjects={filteredObjects}></RightDiv> */}
           <RightDiv data={data}  filteredObjects={filteredObjects}></RightDiv>
         </div>
       </div>
